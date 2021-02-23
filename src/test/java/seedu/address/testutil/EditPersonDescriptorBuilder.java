@@ -83,6 +83,12 @@ public class EditPersonDescriptorBuilder {
         return this;
     }
 
+    /**
+     * Performs some testing idk
+     *
+     * @param remark some remark
+     * @return something
+     */
     public EditPersonDescriptorBuilder withRemark(String remark) {
         descriptor.setRemark(new Remark(remark));
         return this;
