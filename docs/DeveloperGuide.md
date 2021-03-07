@@ -236,13 +236,16 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* has a need to manage a significant number of contacts
-* prefer desktop apps over other types
-* can type fast
+* Young aspiring J-Culture enthusiast who wants to learn basic Japanese
+* goes to a Japanese Culture Club so is low on time after school
+* interested in learning the Japanese language
+* prefers using flashcards to learn 
+* prefers desktop apps over other types
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: Ability to not only convert between English and Japanese but Chinese and Japanese as well 
+(for relevant flashcards)
 
 
 ### User stories
@@ -261,21 +264,20 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `Weeblingo` and the **Actor** is the `user`, unless specified otherwise)
 
-
-**Use case: See flash cards one by one**
+**Use case: See flashcards one by one**
 
 **MSS**
 
-1.  User requests to view flash cards
-2.  WeebLingo shows a new flash card on the screen
+1.  User requests to view flashcards
+2.  WeebLingo shows a new flashcard on the screen
 3.  User clicks next
 4.  Go to step 2 again
 
 **Extensions**
 
-* 2a. All flash cards have been shown.
+* 2a. All flashcards have been shown.
 
   Use case ends.
 
@@ -346,15 +348,16 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 8.  The project should be open-sourced.
 9.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) and
     beginner typing speed for simple Japanese text (i.e. simple words and sentences) should be able to accomplish most
-    of the learnings faster using commands than using the mouse.
-10. A user should find interecting with the user interface easy, even if he/she is relatively new to the application.
+    of the learning faster using commands than using the mouse.
+10. A user should find interacting with the user interface easy, even if he/she is relatively new to the application.
 11. More to be added.
 
 ### Glossary
 
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
-* **Private contact detail**: A contact detail that is not meant to be shared with others
-
+* **Question**: A Japanese character/word 
+* **Answer**: The reading/definition of the Japanese given in the corresponding question
+* **Flashcard**: An object that can display a question and its answer
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Appendix: Instructions for manual testing**
@@ -407,3 +410,5 @@ testers are expected to do more *exploratory* testing.
    1. _{explain how to simulate a missing/corrupted file, and the expected behavior}_
 
 1. _{ more test cases …​ }_
+
+
